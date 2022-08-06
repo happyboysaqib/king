@@ -21,24 +21,13 @@ br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U
 
 ##### LOGO #####
 logo = """
-\033[1;96m██████╗░██╗░░░░░░█████╗░░█████╗░██╗░░██╗
-\033[1;96m██╔══██╗██║░░░░░██╔══██╗██╔══██╗██║░██╔╝
-\033[1;96m██████╦╝██║░░░░░███████║██║░░╚═╝█████═╝░
-\033[1;96m██╔══██╗██║░░░░░██╔══██║██║░░██╗██╔═██╗░
-\033[1;96m██████╦╝███████╗██║░░██║╚█████╔╝██║░╚██╗
-\033[1;96m╚═════╝░╚══════╝╚═╝░░╚═╝░╚════╝░╚═╝░░╚═╝
-\033[1;96m███╗░░░███╗░█████╗░███████╗██╗░█████╗░
-\033[1;96m████╗░████║██╔══██╗██╔════╝██║██╔══██╗
-\033[1;96m██╔████╔██║███████║█████╗░░██║███████║
-\033[1;96m██║╚██╔╝██║██╔══██║██╔══╝░░██║██╔══██║
-\033[1;96m██║░╚═╝░██║██║░░██║██║░░░░░██║██║░░██║
-\033[1;96m╚═╝░░░░░╚═╝╚═╝░░╚═╝╚═╝░░░░░╚═╝╚═╝░░╚═╝
+\033[1;96m█saqib ur rehman
 \033[1;96m«-----------------\033[1;91mBlackMafia\033[1;96m-----------------»
-\033[1;91m  ┈┈┈◢▇◣◢▇◣┈┈◢▇◣◢▇◣┈┈◢▇◣◢▇◣┈┈┈┈  BlackMafia
+\033[1;91m  ┈┈┈◢▇◣◢▇◣┈┈◢▇◣◢▇◣┈┈◢▇◣◢▇◣┈┈┈┈  saqib
 \033[1;91m  ┈┈┈▇▇▇▇▇▇┈┈▇▇▇▇▇▇┈┈▇▇▇▇▇▇┈┈┈┈  lovehacker
 \033[1;91m  ┈┈┈◥▇▇▇▇◤┈┈◥▇▇▇▇◤┈┈◥▇▇▇▇◤┈┈┈┈ 
 \033[1;91m  ┈┈┈┈◥▇▇◤┈┈┈┈◥▇▇◤┈┈┈┈◥▇▇◤┈┈┈┈┈   WhatsApp
-\033[1;91m  ┈┈-̴̧̬͖͇̟̟̼̱͙̠͉̟̹̘̖̥͈͖͚̯͗͑͌̃̿͗̈̿̿̏͗̑̀̀͘┈┈◥◤┈┈┈-̴̧̬͖͇̟̟̼̱͙̠͉̟̹̘̖̥͈͖͚̯͗͑͌̃̿͗̈̿̿̏͗̑̀̀͘┈┈◥◤┈┈┈-̴̧̬͖͇̟̟̼̱͙̠͉̟̹̘̖̥͈͖͚̯͗͑͌̃̿͗̈̿̿̏͗̑̀̀͘┈┈◥◤┈┈┈-̴̧̬͖͇̟̟̼̱͙̠͉̟̹̘̖̥͈͖͚̯͗͑͌̃̿͗̈̿̿̏͗̑̀̀͘┈┈┈ 03094161457
+\033[1;91m  ┈┈-̴̧̬͖͇̟̟̼̱͙̠͉̟̹̘̖̥͈͖͚̯͗͑͌̃̿͗̈̿̿̏͗̑̀̀͘┈┈◥◤┈┈┈-̴̧̬͖͇̟̟̼̱͙̠͉̟̹̘̖̥͈͖͚̯͗͑͌̃̿͗̈̿̿̏͗̑̀̀͘┈┈◥◤┈┈┈-̴̧̬͖͇̟̟̼̱͙̠͉̟̹̘̖̥͈͖͚̯͗͑͌̃̿͗̈̿̿̏͗̑̀̀͘┈┈◥◤┈┈┈-̴̧̬͖͇̟̟̼̱͙̠͉̟̹̘̖̥͈͖͚̯͗͑͌̃̿͗̈̿̿̏͗̑̀̀͘┈┈┈ 03484160325 
 \033[1;96m«-----------------\033[1;91mBlackMafia\033[1;96m-----------------»"""   
 R = '\033[1;91m'
 G = '\033[1;92m'                                
@@ -103,12 +92,12 @@ def menu():
     time.sleep(0.05)
     print("\033[1;91m[0]  EXIT")
     time.sleep(0.05)
-    mafia()
-def mafia():
+    saqib()
+def saqib():
 	black = raw_input("\033[1;91m slect option>>>   ")
 	if black =="":
 		print ("Select a valid option !")
-		mafia()
+		saqib()
 	elif black =="1":
 		clear()
 		print(logo)
@@ -131,61 +120,61 @@ def mafia():
 	        clear()
 	        print(logo)
 	        os.system("rm -rf $HOME/Spider")
-	        os.system("cd $HOME && git clone https://github.com/lovehacker404/Spider")
+	        os.system("cd $HOME && git clone https://github.com/happyboysaqib/saq")
                 print (logo)
 	        love("\033[1;91mCongratulations Cobra Tool Has Been Installed Successfully")
 	        love("Now you can open this tool as usual")
-                love("\033[1;93mTool User Name SpiderMan Password lovehacker")
+                love("\033[1;93mTool User Name saqib Password saqib")
                 time.sleep(5)
-                os.system("cd $HOME/Spider && python2 SpiderMan.py")
+                os.system("cd $HOME/saqib && python2 saq.py")
         elif black =="4":
 		clear()
 		print(logo)
-		os.system("rm -rf $HOME/KaliIndia")
-		os.system("cd $HOME && git clone https://github.com/lovehacker404/KaliIndia")
+		os.system("rm -rf $HOME/pakistan")
+		os.system("cd $HOME && git clone https://github.com/happyboysaqib/saq")
                 print (logo)
 		love("\033[1;96mCongratulations BlackMafia Tool Has Been Installed Successfully")
 		love("Now you can open this tool as usual")
-		love("\033[1;93mTool User Name India Password lovehacker")
+		love("\033[1;93mTool User Name pakistan Password saqib")
                 time.sleep(5)
-                os.system("cd $HOME/KaliIndia && python2 kalilinux.India.py")
+                os.system("cd $HOME/pakistan && python2 Pakistan.saqib.py")
 	elif black =="5":
 	        clear()
 		print(logo)
-		os.system("rm -rf $HOME/BlackHat")
-		os.system("cd $HOME && git clone https://github.com/lovehacker404/BlackHat")
+		os.system("rm -rf $HOME/saqib")
+		os.system("cd $HOME && git clone https://github.com/happyboysaqib/saq")
                 print (logo)
 		love("\033[1;96mCongratulations BlackHat Tool Has Been Installed Successfully")
 		love("Now you can open this tool as usual")
-		love("\033[1;93mTool User Name BlackHat Password lovehacker")
+		love("\033[1;93mTool User Name saqib Password saqib")
                 time.sleep(5)
-                os.system("cd $HOME/BlackHat && python2 BlackHat.py")
+                os.system("cd $HOME/saqib && python2 saqib.py")
 	elif black =="6":
 	        clear()
 	        print(logo)
 	        os.system("rm -rf $HOME/RedMoonNew")
-	        os.system("cd $HOME && git clone https://github.com/lovehacker404/RedMoonNew")
+	        os.system("cd $HOME &git clone https://github.com/happyboysaqib/saq")
                 print (logo)
 	        love("\033[1;91mCongratulations RedMoonNew Tool Has Been Installed Successfully")
 	        love("Now you can open this tool as usual")
-                love("\033[1;93mTool User Name\033[1;92m RedMoonNew\033[1;93m Password \033[1;92mlovehacker")
+                love("\033[1;93mTool User Name\033[1;92m RedMoonNew\033[1;93m Password \033[1;92msaqib")
                 time.sleep(6)
-                os.system("cd $HOME/RedMoonNew && python2 lovehacker")
+                os.system("cd $HOME/RedMoonNew && python2 saqib")
         elif black =="7":
 		clear()
 		print(logo)
-		os.system("rm -rf $HOME/lov3Hak3r")
-		os.system("cd $HOME && git clone https://github.com/lovehacker404/lov3Hak3r")
+		os.system("rm -rf $HOME/saqib")
+		os.system("cd $HOME && git clone https://github.com/happyboysaqib/saq")
                 print (logo)
-		love("\033[1;96mCongratulations BlackMafia Tool Has Been Installed Successfully")
+		love("\033[1;96mCongratulations saqib Tool Has Been Installed Successfully")
 		love("Now you can open this tool as usual")
 		time.sleep(5)
-                os.system("cd $HOME/lov3Hak3r && python2 lovehacker.py")
+                os.system("cd $HOME/saqib && python2 saqib.py")
 	elif black =="8":
 	        clear()
 	        print(logo)
 	        os.system("rm -rf $HOME/Cobra")
-	        os.system("cd $HOME && git clone https://github.com/lovehacker404/Cobra")
+	        os.system("cd $HOME && git clone https://github.com/happyboysaqib/saq")
                 print (logo)
 	        love("\033[1;93mCongratulations Cobra Tool Has Been Installed Successfully")
 	        love("Now you can open this tool as usual")
